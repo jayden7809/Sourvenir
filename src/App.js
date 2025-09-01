@@ -1,3 +1,4 @@
+
 import './App.css';
 import Install from './install';
 import StarRating from './components/StarRating';
@@ -26,3 +27,4 @@ function App() {
 }
 
 export default App;
+
