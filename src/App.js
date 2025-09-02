@@ -4,7 +4,7 @@ import Install from './install';
 import StarRating from './components/StarRating';
 import { Routes, Route } from 'react-router-dom';
 
-import Cart from './cart/Cart';
+import Cart from './cart/cart';
 import Login from './login/Login';
 
 

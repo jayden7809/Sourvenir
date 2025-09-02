@@ -1,12 +1,8 @@
-import React from "react";
 
-function Cart() {
+const Cart = () => {
     return (
-        <>
-            <h1>장바구니페이지</h1>
-            <p>안녕하세요</p>
-        </>
+        <h2>장바구니 삭제했다가 생성함</h2>
+
     )
 }
-
 export default Cart;
