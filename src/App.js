@@ -4,7 +4,6 @@ import Install from './install';
 import StarRating from './components/StarRating';
 import { Routes, Route } from 'react-router-dom';
 
-import Cart from './cart/Cart';
 import Login from './login/Login';
 
 
@@ -21,7 +20,6 @@ function App() {
             <StarRating itemId={3} />
           </>
         }></Route>
-        <Route path='/Cart' element={<Cart></Cart>}></Route>
 
         <Route path='/login' element={<Login />}></Route>
       </Routes>
