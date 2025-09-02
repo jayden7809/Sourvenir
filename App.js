@@ -1,9 +1,11 @@
+
 import './App.css';
 import Install from './install';
 import StarRating from './components/StarRating';
 import { Routes, Route } from 'react-router-dom';
 
-import Login from './login/Login';
+import Cart from './cart/Cart.js';
+import Login from './login/Login.js';
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
             <StarRating itemId={3} />
           </>
         }></Route>
+        <Route path='/Cart' element={<Cart></Cart>}></Route>
 
         <Route path='/login' element={<Login />}></Route>
       </Routes>
@@ -27,5 +30,4 @@ function App() {
 }
 
 export default App;
-
 
